@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+.flex-item{
+    display: flex;
+}
+.item-v_center{
+    display: flex;
+    justify-content: center;
+
+}
+.item-p_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}

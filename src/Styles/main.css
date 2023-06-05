@@ -1,0 +1,229 @@
+@import "animate.css/animate.min.css";
+
+/* Header Component All Styles Here */
+
+.study-portal_navbar{
+    background-color: #323434;   
+}
+.study-portal_navbar_text{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+}
+/* .user-image{
+    background: url("../Images/Backgrounds/user.jpg");
+} */
+
+
+/* Main Component All Styles Here */
+
+
+.background{
+    background: url('../Images/Backgrounds/mainpage.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .background_1{
+    background: url('../Images/Backgrounds/mainpage1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .background_2{
+    background: url('../Images/Backgrounds/mainpage2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+ 
+  
+  
+
+ /* Count Component All Styles Here */
+.count-box{
+    background-color: #323434;
+   
+    width: 100%;
+}
+.icon-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icon-box_sub{
+    margin-left: 10px;
+}
+ .icon-box_icon{
+     font-size: 60px;
+     color: #ffbe05;
+ }
+ .icon-box_value{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+ }
+ .icon-box_text{
+    color: #ffffff;
+    font-size: 25px;
+ }
+
+ /* Buttons Component All Styles Here */
+
+ .btn-login{
+     background: none !important;
+     border:none !important;
+     outline: none !important;
+     cursor: pointer !important;
+ }
+ .btn-login:focus{
+   box-shadow: none !important;
+}
+
+.btn-signin{
+    background: red !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin-left: 10px;
+}
+.btn-signin:focus{
+  box-shadow: none !important;
+}
+
+
+.btn-login_google{
+    background: #DB4437 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+.btn-login_google:focus{
+  box-shadow: none !important;  
+}
+
+.btn-login_facebook{
+    background: #4267B2 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.btn-login_google:focus{
+  box-shadow: none !important; 
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    outline: none;
+}
+
+.modal-header{
+    border-top: solid 10px red;
+    
+}
+
+
+ /* Why Component All Styles Here */
+
+ .why-img{
+    height: 60vh;
+ }
+ .heading_primary{
+    text-align: center;
+    font-size: 50px;
+    color: #4b4b4b;
+    margin-top: 56px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .list_primary{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 17px;
+ }
+ .list-icon{
+     margin-right: 10px;
+     color: #ffbe05;
+ }
+
+  /* Custom Space All Styles Here */
+
+ .custom_scale_1{
+     margin-top: 20px;
+ }
+/* News Letter All Styles Here */
+ .box-news_letter{
+padding: 10px;
+margin-top: 90px;
+background: linear-gradient(-45deg, #ee7752, #f7c232, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+ }
+ @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ .letter-img{
+     height: 20vh;
+ }
+ .news-letter-text_heading{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+ }
+ .news-letter_input-box{
+     width: 60% !important;
+ }
+ .news-letter_input-box:active{
+    outline: none;
+    box-shadow: none;
+}
+
+ /* Our Team Component All Styles Here */
+
+.img_team{
+    height: 200px;
+    border-radius: 100px;
+    transition: transform .5s ease; 
+    cursor: pointer;
+}
+.img_team:hover{
+    transform: scale(1.1);
+}
+.team-heading_text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #434343;
+    margin-top: 10px;
+}
+
+.job-icon{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+/* Our Team Component All Styles Here */
+
+.main-footer{
+    background-color: #323434;
+}
